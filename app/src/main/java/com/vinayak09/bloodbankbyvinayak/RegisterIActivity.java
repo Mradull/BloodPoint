@@ -35,7 +35,7 @@ public class RegisterIActivity extends AppCompatActivity {
         email = findViewById(R.id.emailInput);
         pass = findViewById(R.id.passInput);
         nextToI = findViewById(R.id.nextButtonI);
-        progressIndicator = findViewById(R.id.iProgressbar);
+        //progressIndicator = findViewById(R.id.iProgressbar);
     }
 
     public void nextRegisterPage(View view) {

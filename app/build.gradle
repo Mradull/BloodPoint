@@ -4,13 +4,13 @@ plugins {
 }
 
 android {
-    compileSdkVersion 30
+    compileSdkVersion 33
     buildToolsVersion "30.0.3"
 
     defaultConfig {
         applicationId "com.vinayak09.bloodbankbyvinayak"
-        minSdkVersion 24
-        targetSdkVersion 30
+        minSdkVersion 23
+        targetSdkVersion 33
         versionCode 1
         versionName "1.0"
 
@@ -39,4 +39,5 @@ dependencies {
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    implementation platform('com.google.firebase:firebase-bom:31.5.0')
 }

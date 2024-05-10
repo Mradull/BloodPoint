@@ -35,22 +35,6 @@
 
 
         <com.google.android.material.textfield.TextInputLayout
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColorHint="#000000"
-            app:hintTextColor="#000000"
-            app:startIconDrawable="@drawable/ic_baseline_call_24">
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:hint="Mobile Number"
-                android:id="@+id/mobileEditText"
-                android:inputType="phone" />
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -74,14 +58,7 @@
             android:layout_height="wrap_content"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:textColorHint="#000000"
-            app:hintTextColor="#000000">
-            <com.google.android.material.textfield.TextInputEditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="OTP"
-                android:id="@+id/verificationText"
-                android:inputType="number"/>
-        </com.google.android.material.textfield.TextInputLayout>
+            app:hintTextColor="#000000"/>
 
 
 
